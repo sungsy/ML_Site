@@ -1,0 +1,150 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: white;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+}
+
+/*Grid-Continer-Start*/
+
+.app-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.img-container {
+  padding-left: 0;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  background-size: 100%;
+  position: relative;
+  width: 100%;
+  height: 100vmin;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-container img{
+  width: 100%;
+  height: 100%;
+  position: static;
+
+}
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: white;
+  font-style: bold;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: -40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*projects*/
+.projects {
+  padding: 20%;
+  padding-top: 5%;
+  padding-bottom: 12%;
+}
+
+.topic {
+  font-size: 30px;
+  padding-bottom: 3px;
+  padding-top: 15px;
+}
+
+/*collapsibles*/
+.collapsible {
+  background-color: #26272b;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-radius: 0%;
+}
+
+.active, .collapsible:hover {
+  background-color: rgba(71, 63, 63, 0.815);
+  -webkit-transition: background .3s ease;
+  transition: background .3s ease;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+}
+
+.connect {
+  padding: 45%;
+  padding-top: 0%;
+  padding-bottom: 10%;
+}
+
+.more {
+  background-color: #26272b;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  border-radius: 0%;
+}
+
+.more:hover{
+  background-color: rgba(71, 63, 63, 0.815);
+}

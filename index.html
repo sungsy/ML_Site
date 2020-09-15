@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            MLSite
+        </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/image_loading_script.js"></script>
+        <script src="js/collapsible_script.js"></script>
+        <script src="js/scrollscript.js"></script>
+
+
+        <!--for the footer-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+        <link rel="stylesheet" href="css/footerstyle.css">
+
+
+        <!--Include the css specifications -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/imagestyle.css">
+        <link rel="stylesheet" href="css/headertextstyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700&amp;display=swap'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+        
+        <!-- for the browser tab-->
+        <link rel="icon" href="images/avatar.png">
+    </head>
+
+
+    <body>
+      <div id="app" class="app-wrapper">
+          <div class="img-container" :style="{ backgroundImage: 'url(' + imageSrc + ')' }">
+            <!--high image quality-->
+              <div class="center">
+                <div>HelloWorld.</div>
+              <div style="font-size: 30px; top: 50%;">by magnus landwehr</div>
+            </div>
+          </div>
+        </div>
+
+    <!-- projects -->
+    <section class="projects">
+      <div class="topic">Computer Vision Projects</div>
+        <!-- Computer Vision Projects --> 
+        <button class="collapsible">MNIST Dataset</button>
+        <div class="content">
+          <div style="padding: 7px; padding-left: 0%;">
+
+            <img src="images/MNIST.png" style="padding-top: 7px; float: right; margin: 0px 0px 15px 15px;">
+            The MNIST database is a large database of handwritten digits. It is perfects for the first attempts with Computer Vision, 
+            because every image is already perfectly cropted - so you don't have to do any preprocessing in advance to clean your dataset.
+            The main structural feature of RegularNets is that all the neurons are connected to each other. For example, when we have images with 28 by 28 pixels with only greyscale, 
+            we will end up having 784 (28 x 28 x 1) neurons in a layer which seems manageable. However, if we have colored, bigger images it will not be really manageable anymore.
+            Therefore we decideded to use the architecture of Convolutional Neuronal Networks (CNN's).
+            The LeNet-5 architecture - a classic CNN architecture, which was introduced in the 1990's.</br>
+            With the help of a LeNet5 Model we were able to achieve a 99.97 accuracy in the test-data set at a Computer Vision Challenge. 
+            We used Image Augmentation to make our model robust against overfitting.</br>
+            The example shows a fracture of the dataset. If you want to learn more about the MNIST Database and how to build a model to predict the digits 
+            check out this artictcle by Jason Brownlee.</br>
+            <a href="https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-from-scratch-for-mnist-handwritten-digit-classification/">more</a>
+          
+          </div>
+        </div>
+
+        <button class="collapsible">Cat & Dog Dataset</button>
+        <div class="content">
+          <div style="padding: 7px; padding-left: 0%;">
+
+            <img src="images/CatAndDog_modelAcc.png" style="padding-top: 7px; float: right; margin: 0px 0px 15px 15px;">
+            The cats and dogs database is a dataset from <a href="https://www.kaggle.com/c/dogs-vs-cats" style="color: black; font-weight: bold;">kaggle</a>. In this competition, the task is to write a algorithm that calssifys images that contain either
+            a dog or a cat.</br>
+            This Repository originated from a Computer Vision Challenge at linkit, where teams of up to 3 persons had a week to submit predicitons of a test-data set with pictures of cats and dogs.</br>
+            We achieved a accurracy of 98.18%. </br>
+            Our Model uses transfer-learning where we froze all layers, except the last 4 of the <a href="https://arxiv.org/pdf/1602.07261.pdf" style="color: black; font-weight:bold;">InceptionResnetV2</a>. 
+            Also we used <a href="https://imgaug.readthedocs.io/en/latest/source/examples_basics.html" style="color: black; font-weight: bold;">imagaug</a> a heavy Image Augmentation to make our model more robust.</br>
+            For more information to our algorithm, check out my GitHub Repository.</br>
+            <a href="https://github.com/sungsy/ComputerVision_CatAndDog">more</a>
+
+          </div>
+        </div>
+
+      
+      <!-- natural language projects -->
+      <div class="topic">Natural Language Projects</div>
+        <button class="collapsible">Review classification</button>
+        <div class="content">
+          <div style="padding: 7px; padding-left: 0%;">
+
+            This is a university course challenge, where we had to build a model that categorize into good or bad reviews.
+            With Text-Mining techniques we labeled product reviews either as positive or negative.
+            We did not use any deep learning techniques.</br>
+            <a href="https://github.com/sungsy/TextMiningSentiment">more</a>
+
+          </div>
+        </div>
+
+
+      <!-- web development projects -->  
+      <div class="topic">Web Development Projects</div>
+        <button class="collapsible">NASA astronomy picture of the day Web Application</button>
+        <div class="content">
+          <div style="padding: 7px; padding-left: 0%;">
+
+            <img src="images/NASAPOD.png" style="padding-top: 7px; width: 50%;float: right; margin: 0px 0px 15px 15px;"></br>
+            This Web-App can be used as a screensaver. It shows a astronomic NASA picture plus title and additional information updated every day. 
+            The Web-App comes in a style like this example. By clicking on the plus
+            button the additional information will be shown.</br>
+            The data is recieved via the NASA APOD API</br>
+            <a href="https://github.com/sungsy/NasaPictureOfTheDay">more</a></div></div>
+
+        <button class="collapsible">This Website</button>
+        <div class="content">
+          <div style="padding: 7px; padding-left: 0%">
+            This Website should give a quick introduction to some of my projects available on GitHub. This static webpage is build on GitHub-Pages.
+            It uses the unsplash API to pull a new image every time it will be reloded.
+            It is build without any framework, just pure HTML, CSS and JavaScript.</br>
+            <a href="https://github.com/sungsy/MLSite">more</a>
+          </div>
+        </div>
+
+
+    </section>
+
+    <section class="connect">
+      <button class="more" onclick="location.href='https://github.com/sungsy'">go to GitHub <i class="fa fa-github"></i></button>
+    </section>
+
+    <!-- for collapsibles -->
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
+
+      <!-- for vibrant colors -->
+      <script src='https://unpkg.com/node-vibrant@3.1.5/dist/vibrant.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
+      <script src='https://unpkg.com/color-name-list@4.7.1/dist/colornames.umd.js'></script>
+      <script src='https://unpkg.com/nearest-color@0.4.4/nearestColor.js'></script><script  src="js/vibrant_color_script.js"></script>
+      
+
+    </body>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div>
+            <h6 style="text-align: center;">About</h6>
+            <p class="text-justify" style="text-align: center;">This website should only give the visitor a overview about my latest programming projects on GitHub. If you like what you see, feel free to get in touch with me.</p>
+          </div>
+
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="youtube" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"><i class="fa fa-youtube"></i></a></li>
+              <li><a class="github" href="https://github.com/sungsy"><i class="fa fa-github"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/in/magnus-landwehr-399b44144/"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+</html>

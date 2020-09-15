@@ -1,0 +1,528 @@
+{	"id": "",
+	"name": "",
+	"startDate": "",
+	"startTime": "",
+	"endDate": "",
+	"endTime": "",
+	"bkgImageConfigurations" : [
+		{	"imageNr": 1 ,
+			"bkgImages": [
+				{	"name": "bkgImage0",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 0,
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": "11.0",
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				}
+			]
+		},
+		{	"imageNr": 2,
+			"bkgImages": [
+				{	"name": "bkgImage0",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 0,
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 5,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				},
+				{	"name": "bkgImage1",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 5.5,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 5,
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				}
+			]
+		},
+		{	"imageNr": 3,
+			"bkgImages": [
+				{	"name": "bkgImage0",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 0,
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 3.0,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				},
+				{	"name": "bkgImage1",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 3.5,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 3,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				},
+				{	"name": "bkgImage2",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 7.5,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 3,
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				}
+			]
+		},
+		{	"imageNr": 4,
+			"bkgImages": [
+				{	"name": "bkgImage0",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings": [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 0,
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 2,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				},
+				{	"name": "bkgImage1",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 2.5,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 2,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				},
+				{	"name": "",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 5.5,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 2,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				},
+				{	"name": "bkgImage2",
+					"initializations": [
+						{	"type": "opacity",
+							"value": 0
+						}
+					],
+					"openings" : [
+						{	"type": "opacity",
+							"value": 1,
+							"delay": 8.5,
+							"duration": 1,
+							"speedCurve": "ease-in-out"
+						}
+					],
+					"closings": [
+						{	"type": "opacity",
+							"value": 0,
+							"delay": 2,
+							"duration": 0.5,
+							"speedCurve": "ease-in-out"
+						}
+					]
+				}
+			]
+		}
+	],
+	"logoImage": {
+		"name": "",
+		"initializations": [
+			{	"type": "opacity",
+				"value": 0
+			}
+		],
+		"openings" : [
+			{	"type": "opacity",
+				"value": 1,
+				"delay": 0,
+				"duration": 0.5,
+				"speedCurve": "ease-in-out"
+			}
+		],
+		"closings": [
+			{	"type": "opacity",
+				"value": 0,
+				"delay": 10.5,
+				"duration": 0.5,
+				"speedCurve": "ease-in-out"
+			}
+		]
+	},
+	"bodyBkg": {
+		"bkgColor": "linear-gradient(to right, rgb(68,193, 197), rgb(1, 166, 221))",
+		"initializations": [
+			{	"type": "opacity",
+				"value": 1
+			},
+			{	"type": "wipeV",
+				"value": "0%"
+			}
+		],
+		"openings" : [
+			{	"type": "wipeV",
+				"value":"100%",
+				"delay": 1,
+				"duration": 3,
+				"speedCurve": "ease-in-out"
+			}
+		],
+		"closings": [
+			{	"type": "wipeV",
+				"value":"0%",
+				"delay": 4,
+				"duration": 3,
+				"speedCurve": "ease-in-out"
+			}
+		]
+	},
+	"bodyFooter": {
+		"text" : "siemens.com",
+		"align" : "right",
+		"color": "black",
+		"size": "0.8vw",
+		"weight": "normal",
+		"bkgColor": "white",
+		"initializations": [
+			{	"type": "opacity",
+				"value": 0
+			}
+		],
+		"openings" : [
+			{	"type": "opacity",
+				"value": 1,
+				"delay": 3.5,
+				"duration": 1,
+				"speedCurve": "ease-in-out"
+			}
+		],
+		"closings": [
+			{	"type": "opacity",
+				"value": 0,
+				"delay": 3,
+				"duration": 1,
+				"speedCurve": "ease-in-out"
+			}
+		]
+	},
+	"bodyTitle":  {
+		"text" : "Welcome to EWA",
+		"color": "white",
+		"size": "3vw",
+		"weight": "normal",
+		"paddingTop": "1vw",
+		"paddingBottom": "1vw",
+		"initializations": [
+			{	"type": "opacity",
+				"value": 0
+			}
+		],
+		"openings" : [
+			{	"type": "opacity",
+				"value": 1,
+				"delay": 2,
+				"duration": 1,
+				"speedCurve": "ease-in-out"
+			}
+		],
+		"closings": [
+			{	"type": "opacity",
+				"value": 0,
+				"delay": 6,
+				"duration": 1,
+				"speedCurve": "ease-in-out"
+			}
+		]
+	},
+	"bodyItems": [
+		{	"text": "",
+			"color": "white",
+			"size": "1.9vw",
+			"weight": "normal",
+			"paddingTop": "1vw",
+			"paddingBottom": "1vw",
+			"initializations": [
+				{	"type": "opacity",
+					"value": 0
+				}
+			],
+			"openings" : [
+				{	"type": "opacity",
+					"value": 1,
+					"delay": 2.5,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			],
+			"closings": [
+				{	"type": "opacity",
+					"value": 0,
+					"delay": 5,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			]
+		},
+		{	"text": "",
+			"color": "white",
+			"size": "1.7vw",
+			"weight": "normal",
+			"paddingTop": "1vw",
+			"paddingBottom": "0vw",
+			"initializations": [
+				{	"type": "opacity",
+					"value": 0
+				}
+			],
+			"openings" : [
+				{	"type": "opacity",
+					"value": 1,
+					"delay": 2.75,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			],
+			"closings": [
+				{	"type": "opacity",
+					"value": 0,
+					"delay": 4.5,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			]
+		},
+		{	"text": "",
+			"color": "white",
+			"size": "1.2vw",
+			"weight": "normal",
+			"paddingTop": "1vw",
+			"paddingBottom": "0vw",
+			"initializations": [
+				{	"type": "opacity",
+					"value": 0
+				}
+			],
+			"openings" : [
+				{	"type": "opacity",
+					"value": 1,
+					"delay": 3.0,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			],
+			"closings": [
+				{	"type": "opacity",
+					"value": 0,
+					"delay": 4.0,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			]
+		},
+		{	"text": "",
+			"color": "white",
+			"size": "1.7vw",
+			"weight": "normal",
+			"paddingTop": "0.6vw",
+			"paddingBottom": "0vw",
+			"initializations": [
+				{	"type": "opacity",
+					"value": 0
+				}
+			],
+			"openings" : [
+				{	"type": "opacity",
+					"value": 1,
+					"delay": 3.25,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			],
+			"closings": [
+				{	"type": "opacity",
+					"value": 0,
+					"delay": 3.5,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			]
+		},
+		{	"text": "",
+			"color": "white",
+			"size": "1.2vw",
+			"weight": "normal",
+			"paddingTop": "2vw",
+			"paddingBottom": "0vw",
+			"initializations": [
+				{	"type": "opacity",
+					"value": 0
+				}
+			],
+			"openings" : [
+				{	"type": "opacity",
+					"value": 1,
+					"delay": 3.5,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			],
+			"closings": [
+				{	"type": "opacity",
+					"value": 0,
+					"delay": 3,
+					"duration": 1,
+					"speedCurve": "ease-in-out"
+				}
+			]
+		}
+	],
+	"playoutDetails": {
+		"startRule": {
+			"period": {
+				"status":"",
+				"value":""
+			},
+			"schedule": {
+				"status":"",
+				"value":""
+			}
+		},
+		"endRule": {
+			"period": {
+				"status":"",
+				"value":""
+			},
+			"schedule": {
+				"status":"",
+				"value":""
+			}
+		}
+	}
+}

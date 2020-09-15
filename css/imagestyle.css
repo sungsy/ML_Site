@@ -1,0 +1,22 @@
+.item-container {
+    overflow: hidden;
+    width: 100;
+    margin: 0px;
+}
+
+img.low-quality,
+img.high-quality {
+    position: absolute;
+    display: block;
+}
+
+img.high-quality {
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s all;
+}
+
+img.high-quality.fade-in {
+    visibility: visible;
+    opacity: 1;
+}
