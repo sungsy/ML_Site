@@ -11,4 +11,4 @@ A big shout out to unspash, which provides a new image every time you relod the 
 Also many kudos to [scanfcode](https://codepen.io/scanfcode/pen/MEZPNd) for building such a beautifunl footer.
 
 #### To the page:
-https://sungsy.github.io/MLSite/
+https://sungsy.github.io/ML_Site/
