@@ -2,4 +2,4 @@
 My personal website.
 
 Link:
-https://sungsy.github.io/me/
+https://sungsy.github.io/ML_Site/
